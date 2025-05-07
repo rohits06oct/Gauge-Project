@@ -1,0 +1,302 @@
+07-05-2025 23:33:03.626 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+07-05-2025 23:33:03.654 [Gauge] [INFO] Initializing specs cache with 1 specs
+07-05-2025 23:33:03.654 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\example.spec
+07-05-2025 23:33:03.655 [Gauge] [INFO] Initializing steps cache with 1 steps
+07-05-2025 23:33:03.655 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50386
+07-05-2025 23:33:03.693 [Gauge] [DEBUG] Watching directory: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs
+07-05-2025 23:33:03.698 [Gauge] [DEBUG] Found 1 files
+07-05-2025 23:33:08.321 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:{language:"java"}
+07-05-2025 23:33:08.323 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:2 error:{error:"Plugin 'java' not installed on following locations : [C:\\Users\\Rohit Singhal\\AppData\\Roaming\\gauge\\plugins]"}
+07-05-2025 23:34:06.732 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+07-05-2025 23:34:06.751 [Gauge] [INFO] Initializing specs cache with 1 specs
+07-05-2025 23:34:06.751 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\example.spec
+07-05-2025 23:34:06.751 [Gauge] [INFO] Initializing steps cache with 1 steps
+07-05-2025 23:34:06.751 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50530
+07-05-2025 23:34:06.754 [Gauge] [DEBUG] Watching directory: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs
+07-05-2025 23:34:06.755 [Gauge] [DEBUG] Found 1 files
+07-05-2025 23:34:32.396 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Vowels in English language are \"aeiou\"."}
+07-05-2025 23:34:32.396 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"}}
+07-05-2025 23:34:32.449 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"The word \"gauge\" has \"3\" vowels."}
+07-05-2025 23:34:32.450 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"}}
+07-05-2025 23:34:32.451 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Almost all words have vowels" hasInlineTable:true}
+07-05-2025 23:34:32.452 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+07-05-2025 23:34:32.452 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Vowels in English language are <vowelString>."}
+07-05-2025 23:34:32.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString"}}
+07-05-2025 23:34:32.460 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"The word <word> has <expectedCount> vowels."}
+07-05-2025 23:34:32.460 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount"}}
+07-05-2025 23:34:32.465 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Almost all words have vowels <wordsTable>"}
+07-05-2025 23:34:32.465 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable"}}
+07-05-2025 23:41:44.288 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\example.spec
+07-05-2025 23:41:44.315 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\example.spec
+07-05-2025 23:45:49.895 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\example.spec
+07-05-2025 23:45:49.899 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\example.spec
+07-05-2025 23:53:31.643 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+07-05-2025 23:53:41.634 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+07-05-2025 23:53:41.645 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+07-05-2025 23:55:55.848 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+07-05-2025 23:55:55.848 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+07-05-2025 23:55:55.851 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+07-05-2025 23:55:55.851 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+07-05-2025 23:55:55.856 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+07-05-2025 23:55:55.856 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+07-05-2025 23:55:55.919 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+07-05-2025 23:55:55.920 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+07-05-2025 23:55:55.920 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+07-05-2025 23:55:55.921 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+07-05-2025 23:55:57.013 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"O"}
+07-05-2025 23:55:57.014 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"O" parameterizedStepValue:"O"}}
+07-05-2025 23:55:57.025 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+07-05-2025 23:55:57.025 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"} allSteps:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"} allSteps:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+07-05-2025 23:55:57.029 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+07-05-2025 23:55:57.029 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+07-05-2025 23:55:57.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Op"}
+07-05-2025 23:55:57.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Op" parameterizedStepValue:"Op"}}
+07-05-2025 23:55:57.388 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ope"}
+07-05-2025 23:55:57.388 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ope" parameterizedStepValue:"Ope"}}
+07-05-2025 23:55:57.531 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open"}
+07-05-2025 23:55:57.531 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open" parameterizedStepValue:"Open"}}
+07-05-2025 23:55:59.085 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open A"}
+07-05-2025 23:55:59.085 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open A" parameterizedStepValue:"Open A"}}
+07-05-2025 23:55:59.087 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+07-05-2025 23:55:59.087 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"} allSteps:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"} allSteps:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"}}
+07-05-2025 23:55:59.088 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+07-05-2025 23:55:59.088 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+07-05-2025 23:55:59.089 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+07-05-2025 23:55:59.089 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"} allSteps:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"} allSteps:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+07-05-2025 23:55:59.090 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+07-05-2025 23:55:59.090 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+07-05-2025 23:55:59.227 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Am"}
+07-05-2025 23:55:59.227 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Am" parameterizedStepValue:"Open Am"}}
+07-05-2025 23:55:59.434 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Ama"}
+07-05-2025 23:55:59.434 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Ama" parameterizedStepValue:"Open Ama"}}
+07-05-2025 23:56:00.225 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amaz"}
+07-05-2025 23:56:00.225 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amaz" parameterizedStepValue:"Open Amaz"}}
+07-05-2025 23:56:00.410 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazo"}
+07-05-2025 23:56:00.410 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazo" parameterizedStepValue:"Open Amazo"}}
+07-05-2025 23:56:00.688 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon"}
+07-05-2025 23:56:00.688 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon" parameterizedStepValue:"Open Amazon"}}
+07-05-2025 23:56:02.182 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon W"}
+07-05-2025 23:56:02.183 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon W" parameterizedStepValue:"Open Amazon W"}}
+07-05-2025 23:56:02.193 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+07-05-2025 23:56:02.193 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"} allSteps:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"} allSteps:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+07-05-2025 23:56:02.193 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+07-05-2025 23:56:02.193 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+07-05-2025 23:56:02.195 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+07-05-2025 23:56:02.195 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"} allSteps:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"} allSteps:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+07-05-2025 23:56:02.195 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+07-05-2025 23:56:02.195 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+07-05-2025 23:56:02.444 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon We"}
+07-05-2025 23:56:02.444 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon We" parameterizedStepValue:"Open Amazon We"}}
+07-05-2025 23:56:02.751 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon Web"}
+07-05-2025 23:56:02.752 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon Web" parameterizedStepValue:"Open Amazon Web"}}
+07-05-2025 23:56:03.189 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon Webs"}
+07-05-2025 23:56:03.189 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon Webs" parameterizedStepValue:"Open Amazon Webs"}}
+07-05-2025 23:56:03.480 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon Websi"}
+07-05-2025 23:56:03.480 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon Websi" parameterizedStepValue:"Open Amazon Websi"}}
+07-05-2025 23:56:03.906 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon Websiy"}
+07-05-2025 23:56:03.906 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon Websiy" parameterizedStepValue:"Open Amazon Websiy"}}
+07-05-2025 23:56:04.804 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon Websit"}
+07-05-2025 23:56:04.804 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon Websit" parameterizedStepValue:"Open Amazon Websit"}}
+07-05-2025 23:56:04.811 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+07-05-2025 23:56:04.811 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"} allSteps:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"} allSteps:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+07-05-2025 23:56:04.811 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+07-05-2025 23:56:04.811 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+07-05-2025 23:56:04.813 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+07-05-2025 23:56:04.813 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"} allSteps:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"} allSteps:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+07-05-2025 23:56:04.813 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+07-05-2025 23:56:04.813 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+07-05-2025 23:56:05.071 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon Website"}
+07-05-2025 23:56:05.071 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon Website" parameterizedStepValue:"Open Amazon Website"}}
+07-05-2025 23:57:03.076 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+07-05-2025 23:57:03.096 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:06:50.598 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:06:50.621 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:00.432 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:00.461 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:00.611 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:00.640 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:15.968 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:15.985 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:23.657 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:23.675 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:38.266 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:38.284 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:07:48.350 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"Samsung Galaxy A15\""}
+08-05-2025 00:07:48.350 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <Samsung Galaxy A15>" parameters:"Samsung Galaxy A15"}}
+08-05-2025 00:07:48.356 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Open Amazon website"}
+08-05-2025 00:07:48.357 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Open Amazon website" parameterizedStepValue:"Open Amazon website"}}
+08-05-2025 00:07:48.434 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click on Search bar"}
+08-05-2025 00:07:48.434 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click on Search bar" parameterizedStepValue:"Click on Search bar"}}
+08-05-2025 00:07:48.527 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Type \"Mobiles\" in Search bar"}
+08-05-2025 00:07:48.527 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Type {} in Search bar" parameterizedStepValue:"Type <Mobiles> in Search bar" parameters:"Mobiles"}}
+08-05-2025 00:07:48.781 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Hit the Search button"}
+08-05-2025 00:07:48.781 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Hit the Search button" parameterizedStepValue:"Hit the Search button"}}
+08-05-2025 00:07:48.911 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click \"Third\" mobile in the list"}
+08-05-2025 00:07:48.911 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <Third> mobile in the list" parameters:"Third"}}
+08-05-2025 00:08:20.352 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Type <Mobiles> in Search bar"}
+08-05-2025 00:08:20.352 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Type {} in Search bar" parameterizedStepValue:"Type <Mobiles> in Search bar" parameters:"Mobiles"}}
+08-05-2025 00:08:38.942 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <Third> mobile in the list"}
+08-05-2025 00:08:38.943 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <Third> mobile in the list" parameters:"Third"}}
+08-05-2025 00:08:46.641 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is <Samsung Galaxy A15>"}
+08-05-2025 00:08:46.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <Samsung Galaxy A15>" parameters:"Samsung Galaxy A15"}}
+08-05-2025 00:09:00.665 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:09:00.683 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:19:48.436 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <N> mobile in the list"}
+08-05-2025 00:19:48.436 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <N> mobile in the list" parameters:"N"}}
+08-05-2025 00:19:48.744 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <Nu> mobile in the list"}
+08-05-2025 00:19:48.744 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <Nu> mobile in the list" parameters:"Nu"}}
+08-05-2025 00:19:48.999 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <Num> mobile in the list"}
+08-05-2025 00:19:48.999 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <Num> mobile in the list" parameters:"Num"}}
+08-05-2025 00:19:49.385 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <Numb> mobile in the list"}
+08-05-2025 00:19:49.385 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <Numb> mobile in the list" parameters:"Numb"}}
+08-05-2025 00:19:49.642 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <Numbe> mobile in the list"}
+08-05-2025 00:19:49.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <Numbe> mobile in the list" parameters:"Numbe"}}
+08-05-2025 00:19:50.010 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click <Number> mobile in the list"}
+08-05-2025 00:19:50.011 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <Number> mobile in the list" parameters:"Number"}}
+08-05-2025 00:21:20.593 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is <expectedName>"}
+08-05-2025 00:21:20.593 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <expectedName>" parameters:"expectedName"}}
+08-05-2025 00:22:42.313 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click \"\" mobile in the list"}
+08-05-2025 00:22:42.313 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <> mobile in the list" parameters:""}}
+08-05-2025 00:22:43.941 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click \"4\" mobile in the list"}
+08-05-2025 00:22:43.942 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <4> mobile in the list" parameters:"4"}}
+08-05-2025 00:22:55.518 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:22:55.538 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:31:35.569 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"OnePlus Nord CE4 Lite 5G\""}
+08-05-2025 00:31:35.569 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <OnePlus Nord CE4 Lite 5G>" parameters:"OnePlus Nord CE4 Lite 5G"}}
+08-05-2025 00:31:38.782 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:31:38.784 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:34:05.179 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Type \"Iphone Mobiles\" in Search bar"}
+08-05-2025 00:34:05.179 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Type {} in Search bar" parameterizedStepValue:"Type <Iphone Mobiles> in Search bar" parameters:"Iphone Mobiles"}}
+08-05-2025 00:34:12.884 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Click \"3\" mobile in the list"}
+08-05-2025 00:34:12.884 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Click {} mobile in the list" parameterizedStepValue:"Click <3> mobile in the list" parameters:"3"}}
+08-05-2025 00:34:14.939 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:34:14.941 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:34:26.262 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:34:26.265 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:34:41.823 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhone 16\""}
+08-05-2025 00:34:41.825 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhone 16>" parameters:"iPhone 16"}}
+08-05-2025 00:34:48.483 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:34:48.485 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:36:06.744 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhon e 16\""}
+08-05-2025 00:36:06.744 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhon e 16>" parameters:"iPhon e 16"}}
+08-05-2025 00:36:08.675 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhonde 16\""}
+08-05-2025 00:36:08.675 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhonde 16>" parameters:"iPhonde 16"}}
+08-05-2025 00:36:08.725 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhondme 16\""}
+08-05-2025 00:36:08.725 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhondme 16>" parameters:"iPhondme 16"}}
+08-05-2025 00:36:10.478 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhodndme 16\""}
+08-05-2025 00:36:10.478 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhodndme 16>" parameters:"iPhodndme 16"}}
+08-05-2025 00:36:16.972 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:36:16.974 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:44:20.297 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhodnde 16\""}
+08-05-2025 00:44:20.298 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhodnde 16>" parameters:"iPhodnde 16"}}
+08-05-2025 00:44:20.460 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhodne 16\""}
+08-05-2025 00:44:20.461 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhodne 16>" parameters:"iPhodne 16"}}
+08-05-2025 00:44:20.637 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhode 16\""}
+08-05-2025 00:44:20.637 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhode 16>" parameters:"iPhode 16"}}
+08-05-2025 00:44:21.324 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify that display mobile name is \"iPhoe 16\""}
+08-05-2025 00:44:21.324 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify that display mobile name is {}" parameterizedStepValue:"Verify that display mobile name is <iPhoe 16>" parameters:"iPhoe 16"}}
+08-05-2025 00:44:27.424 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:44:27.427 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\amazonSearch.spec
+08-05-2025 00:50:25.945 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\apiTest.spec
+08-05-2025 00:50:32.649 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Send GET request to endpoint \"https://jsonplaceholder.typicode.com/posts/1\""}
+08-05-2025 00:50:32.649 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Send GET request to endpoint {}" parameterizedStepValue:"Send GET request to endpoint <https://jsonplaceholder.typicode.com/posts/1>" parameters:"https://jsonplaceholder.typicode.com/posts/1"}}
+08-05-2025 00:50:32.716 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is 200"}
+08-05-2025 00:50:32.716 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the response status code is 200" parameterizedStepValue:"Verify the response status code is 200"}}
+08-05-2025 00:50:32.793 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is 1"}
+08-05-2025 00:50:32.793 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the user ID is 1" parameterizedStepValue:"Verify the user ID is 1"}}
+08-05-2025 00:50:33.031 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the title is \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\""}
+08-05-2025 00:50:33.031 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the title is {}" parameterizedStepValue:"Verify the title is <sunt aut facere repellat provident occaecati excepturi optio reprehenderit>" parameters:"sunt aut facere repellat provident occaecati excepturi optio reprehenderit"}}
+08-05-2025 00:50:50.957 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\apiTest.spec
+08-05-2025 00:50:50.961 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\apiTest.spec
+08-05-2025 00:51:17.139 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is <userId>"}
+08-05-2025 00:51:17.139 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the user ID is {}" parameterizedStepValue:"Verify the user ID is <userId>" parameters:"userId"}}
+08-05-2025 00:51:17.153 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the title is <expectedTitle>"}
+08-05-2025 00:51:17.153 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the title is {}" parameterizedStepValue:"Verify the title is <expectedTitle>" parameters:"expectedTitle"}}
+08-05-2025 00:51:17.172 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Send GET request to endpoint <endpoint>"}
+08-05-2025 00:51:17.172 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Send GET request to endpoint {}" parameterizedStepValue:"Send GET request to endpoint <endpoint>" parameters:"endpoint"}}
+08-05-2025 00:51:17.179 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is <statusCode>"}
+08-05-2025 00:51:17.179 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the response status code is {}" parameterizedStepValue:"Verify the response status code is <statusCode>" parameters:"statusCode"}}
+08-05-2025 00:51:37.098 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:37.099 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:37.104 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:37.104 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:37.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:37.107 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:37.161 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:37.161 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:37.162 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:37.162 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:38.183 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:38.183 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:38.183 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:38.184 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:38.243 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:38.243 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:38.244 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200"}
+08-05-2025 00:51:38.244 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:38.966 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200\""}
+08-05-2025 00:51:38.966 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the response status code is {}" parameterizedStepValue:"Verify the response status code is <200>" parameters:"200"}}
+08-05-2025 00:51:38.972 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200\""}
+08-05-2025 00:51:38.972 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the response status code is {}" parameterizedStepValue:"Verify the response status code is <200>" parameters:"200"}}
+08-05-2025 00:51:54.672 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:54.673 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:54.676 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:54.676 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:54.677 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:54.677 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:54.722 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:54.722 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:54.723 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:54.723 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:56.066 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:56.066 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:56.066 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:56.067 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:56.116 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:56.116 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:56.117 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1"}
+08-05-2025 00:51:56.117 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:{error:"String not terminated"}
+08-05-2025 00:51:56.861 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1\""}
+08-05-2025 00:51:56.861 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the user ID is {}" parameterizedStepValue:"Verify the user ID is <1>" parameters:"1"}}
+08-05-2025 00:52:09.991 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\apiTest.spec
+08-05-2025 00:52:09.993 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\apiTest.spec
+08-05-2025 00:53:46.853 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Send GET request to endpoint \"https://jsonplaceholder.typicode.com/posts/\""}
+08-05-2025 00:53:46.853 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Send GET request to endpoint {}" parameterizedStepValue:"Send GET request to endpoint <https://jsonplaceholder.typicode.com/posts/>" parameters:"https://jsonplaceholder.typicode.com/posts/"}}
+08-05-2025 00:53:48.113 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Send GET request to endpoint \"https://jsonplaceholder.typicode.com/posts/2\""}
+08-05-2025 00:53:48.113 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Send GET request to endpoint {}" parameterizedStepValue:"Send GET request to endpoint <https://jsonplaceholder.typicode.com/posts/2>" parameters:"https://jsonplaceholder.typicode.com/posts/2"}}
+08-05-2025 00:54:03.233 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\apiTest.spec
+08-05-2025 00:54:03.236 [Gauge] [DEBUG] Spec file added / modified: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\specs\apiTest.spec
+08-05-2025 01:01:55.663 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+08-05-2025 01:01:55.667 [Gauge] [INFO] Initializing specs cache with 3 specs
+08-05-2025 01:01:55.667 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs\amazonSearch.spec
+08-05-2025 01:01:55.667 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs\apiTest.spec
+08-05-2025 01:01:55.667 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs\example.spec
+08-05-2025 01:01:55.667 [Gauge] [INFO] Initializing steps cache with 3 steps
+08-05-2025 01:01:55.667 [Gauge] [INFO] Gauge daemon initialized and listening on port: 60119
+08-05-2025 01:01:55.670 [Gauge] [DEBUG] Watching directory: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs
+08-05-2025 01:01:55.670 [Gauge] [DEBUG] Found 3 files
+08-05-2025 01:02:06.222 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+08-05-2025 01:02:06.227 [Gauge] [INFO] Initializing specs cache with 3 specs
+08-05-2025 01:02:06.227 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs\amazonSearch.spec
+08-05-2025 01:02:06.227 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs\apiTest.spec
+08-05-2025 01:02:06.227 [Gauge] [DEBUG] Adding specs from C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs\example.spec
+08-05-2025 01:02:06.227 [Gauge] [INFO] Initializing steps cache with 3 steps
+08-05-2025 01:02:06.227 [Gauge] [INFO] Gauge daemon initialized and listening on port: 60144
+08-05-2025 01:02:06.229 [Gauge] [DEBUG] Watching directory: C:\Users\Rohit Singhal\IdeaProjects\Project-Gauge\Gauge-Project\specs
+08-05-2025 01:02:06.230 [Gauge] [DEBUG] Found 3 files
+08-05-2025 01:02:19.232 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Send GET request to endpoint \"https://jsonplaceholder.typicode.com/posts/2\""}
+08-05-2025 01:02:19.234 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Send GET request to endpoint {}" parameterizedStepValue:"Send GET request to endpoint <https://jsonplaceholder.typicode.com/posts/2>" parameters:"https://jsonplaceholder.typicode.com/posts/2"}}
+08-05-2025 01:02:19.535 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Send GET request to endpoint <endpoint>"}
+08-05-2025 01:02:19.535 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Send GET request to endpoint {}" parameterizedStepValue:"Send GET request to endpoint <endpoint>" parameters:"endpoint"}}
+08-05-2025 01:02:19.559 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is \"200\""}
+08-05-2025 01:02:19.559 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the response status code is {}" parameterizedStepValue:"Verify the response status code is <200>" parameters:"200"}}
+08-05-2025 01:02:19.570 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the response status code is <statusCode>"}
+08-05-2025 01:02:19.570 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the response status code is {}" parameterizedStepValue:"Verify the response status code is <statusCode>" parameters:"statusCode"}}
+08-05-2025 01:02:19.571 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is \"1\""}
+08-05-2025 01:02:19.571 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the user ID is {}" parameterizedStepValue:"Verify the user ID is <1>" parameters:"1"}}
+08-05-2025 01:02:19.573 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the user ID is <userId>"}
+08-05-2025 01:02:19.573 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the user ID is {}" parameterizedStepValue:"Verify the user ID is <userId>" parameters:"userId"}}
+08-05-2025 01:02:19.575 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the title is \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\""}
+08-05-2025 01:02:19.575 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the title is {}" parameterizedStepValue:"Verify the title is <sunt aut facere repellat provident occaecati excepturi optio reprehenderit>" parameters:"sunt aut facere repellat provident occaecati excepturi optio reprehenderit"}}
+08-05-2025 01:02:19.576 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Verify the title is <expectedTitle>"}
+08-05-2025 01:02:19.576 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Verify the title is {}" parameterizedStepValue:"Verify the title is <expectedTitle>" parameters:"expectedTitle"}}

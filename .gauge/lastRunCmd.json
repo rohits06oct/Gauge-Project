@@ -1,0 +1,8 @@
+[
+	"C:\\Users\\Rohit Singhal\\Downloads\\gauge-1.6.14-windows.x86_64\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/Rohit Singhal/IdeaProjects/Project-Gauge/Gauge-Project/specs/amazonSearch.spec"
+]

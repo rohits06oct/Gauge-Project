@@ -1,0 +1,66 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 3093milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 3093"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationAmazonSearch.hitSearchButton' and 'org.example.StepImplementationAmazonSearch.hitSearchButton'"}
+{"logLevel":"debug","message":"Found Hit the Search button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationAmazonSearch.typeInSearchBar' and 'org.example.StepImplementationAmazonSearch.typeInSearchBar'"}
+{"logLevel":"debug","message":"Found Type {} in Search bar in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationAmazonSearch.implementation5' and 'org.example.StepImplementationAmazonSearch.implementation5'"}
+{"logLevel":"debug","message":"Found Click {} mobile in the list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationAmazonSearch.openAmazon' and 'org.example.StepImplementationAmazonSearch.openAmazon'"}
+{"logLevel":"debug","message":"Found Open Amazon website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.ApiSteps.sendGetRequest' and 'org.example.ApiSteps.sendGetRequest'"}
+{"logLevel":"debug","message":"Found Send GET request to endpoint {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.ApiSteps.verifyStatusCode' and 'org.example.ApiSteps.verifyStatusCode'"}
+{"logLevel":"debug","message":"Found Verify the response status code is {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.setLanguageVowels' and 'org.example.StepImplementation.setLanguageVowels'"}
+{"logLevel":"debug","message":"Found Vowels in English language are {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.verifyVowelsCountInMultipleWords' and 'org.example.StepImplementation.verifyVowelsCountInMultipleWords'"}
+{"logLevel":"debug","message":"Found Almost all words have vowels {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationAmazonSearch.clickSearchBar' and 'org.example.StepImplementationAmazonSearch.clickSearchBar'"}
+{"logLevel":"debug","message":"Found Click on Search bar in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.ApiSteps.verifyUserId' and 'org.example.ApiSteps.verifyUserId'"}
+{"logLevel":"debug","message":"Found Verify the user ID is {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationAmazonSearch.verifyMobileName' and 'org.example.StepImplementationAmazonSearch.verifyMobileName'"}
+{"logLevel":"debug","message":"Found Verify that display mobile name is {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.ApiSteps.verifyTitle' and 'org.example.ApiSteps.verifyTitle'"}
+{"logLevel":"debug","message":"Found Verify the title is {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.verifyVowelsCountInWord' and 'org.example.StepImplementation.verifyVowelsCountInWord'"}
+{"logLevel":"debug","message":"Found The word {} has {} vowels. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tType {} in Search bar : public void typeInSearchBar(String Mobiles)"}
+{"logLevel":"debug","message":"\tThe word {} has {} vowels. : public void verifyVowelsCountInWord(String word, int expectedCount)"}
+{"logLevel":"debug","message":"\tVerify the title is {} : public void verifyTitle(String expectedTitle)"}
+{"logLevel":"debug","message":"\tSend GET request to endpoint {} : public void sendGetRequest(String endpoint)"}
+{"logLevel":"debug","message":"\tClick on Search bar : public void clickSearchBar()"}
+{"logLevel":"debug","message":"\tVerify that display mobile name is {} : public void verifyMobileName(String expectedName)"}
+{"logLevel":"debug","message":"\tHit the Search button : public void hitSearchButton()"}
+{"logLevel":"debug","message":"\tVerify the response status code is {} : public void verifyStatusCode(int statusCode)"}
+{"logLevel":"debug","message":"\tVowels in English language are {}. : public void setLanguageVowels(String vowelString)"}
+{"logLevel":"debug","message":"\tVerify the user ID is {} : public void verifyUserId(int userId)"}
+{"logLevel":"debug","message":"\tAlmost all words have vowels {} : public void verifyVowelsCountInMultipleWords(Table wordsTable)"}
+{"logLevel":"debug","message":"\tOpen Amazon website : public void openAmazon()"}
+{"logLevel":"debug","message":"\tClick {} mobile in the list : public void implementation5(int Number) throws InterruptedException"}
+{"logLevel":"debug","message":"started gRPC server on port 60330"}
+{"logLevel":"info","message":"Listening on port:60330"}
+May 08, 2025 1:03:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 08, 2025 1:03:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Open Amazon website' using 'class org.example.StepImplementationAmazonSearch.openAmazon"}
+{"logLevel":"debug","message":"Executing 'Click on Search bar' using 'class org.example.StepImplementationAmazonSearch.clickSearchBar"}
+{"logLevel":"debug","message":"Executing 'Type {} in Search bar' using 'class org.example.StepImplementationAmazonSearch.typeInSearchBar"}
+{"logLevel":"debug","message":"Executing 'Hit the Search button' using 'class org.example.StepImplementationAmazonSearch.hitSearchButton"}
+{"logLevel":"debug","message":"Executing 'Click {} mobile in the list' using 'class org.example.StepImplementationAmazonSearch.implementation5"}
+{"logLevel":"debug","message":"Executing 'Verify that display mobile name is {}' using 'class org.example.StepImplementationAmazonSearch.verifyMobileName"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

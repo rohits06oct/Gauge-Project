@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Amazon Search":["specs/amazonSearch.html"]}};
