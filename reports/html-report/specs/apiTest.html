@@ -51,9 +51,9 @@
         <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
     </div>
     <div class="report_test-result scenarios">
-        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">1</span></div>
+        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">2</span></div>
         <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
-        <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
+        <div class="pass scenario-stats" data-status="passed"><span class="value">1</span></div>
         <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
     </div>
   </div>
@@ -72,11 +72,11 @@
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:00:06</span>
+      <span>00:00:04</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>May 8, 2025 at 1:02am</span>
+      <span>May 12, 2025 at 4:54pm</span>
     </li>
   </ul>
 
@@ -118,7 +118,7 @@
               <li class="failed spec-name">
             
               <span id="scenarioName" class="scenarioname">Validate GET Post API</span>
-              <span id="time" class="time">00:00:02</span>
+              <span id="time" class="time">00:00:03</span>
             </li>
           </a>
           
@@ -137,7 +137,7 @@
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
             <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">0</span><span class="txt">Passed</span></li>
+            <li class="pass"><span class="value">1</span><span class="txt">Passed</span></li>
             <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
@@ -150,7 +150,7 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:00:02</span>
+        <span class="time">00:00:03</span>
       </div>
 
 	
@@ -183,9 +183,9 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Validate fetching a post</h3>
+    <h3 class="head borderBottom">Validate wrong status code call</h3>
     
-    <span class="time">00:00:02</span>
+    <span class="time">00:00:00</span>
 
 	
   
@@ -204,19 +204,13 @@
   
     
   
-    <span></span>
-  
-
-  
-    
-  
     
   
   <div class="step">
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:01</span>
+      <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
   <div class="step-info passed">
@@ -244,7 +238,336 @@
     
   
     
-      <span class="parameter">"https://jsonplaceholder.typicode.com/posts/2"</span>
+      <span class="parameter">"https://jsonplaceholder.typicode.com/posts/1"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info failed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Verify the response status code is 
+      </span>
+    
+  
+    
+      <span class="parameter">"400"</span>
+    
+  
+  </div>
+
+  
+    
+        
+  <div class="error-container failed">
+    <div class="exception-container">
+      <div class="exception">
+        <h4 class="error-message">
+          <pre>java.lang.AssertionError: Unexpected status code<br/>Expected: is &lt;400&gt;<br/>     but: was &lt;200&gt;</pre>
+        </h4>
+        <pre class="stacktrace">java.lang.AssertionError: Unexpected status code<br/>Expected: is &lt;400&gt;<br/>     but: was &lt;200&gt;<br/>	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)<br/>	at org.example.ApiSteps.verifyStatusCode(ApiSteps.java:25)<br/>	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.base/java.lang.reflect.Method.invoke(Method.java:566)<br/>	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)<br/>	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)<br/>	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)<br/>	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)<br/>	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)<br/>	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)<br/>	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br/>	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br/>	at java.base/java.lang.Thread.run(Thread.java:834)<br/></pre>
+      </div>
+      
+         <div class="screenshot-container">
+          <div class="screenshot">
+            <a href="../images/screenshot-d6641126-3e04-4f9d-af44-89e2e216ead4.png" rel="lightbox">
+              <img src="../images/screenshot-d6641126-3e04-4f9d-af44-89e2e216ead4.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Verify the user ID is 
+      </span>
+    
+  
+    
+      <span class="parameter">"1"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Verify the title is 
+      </span>
+    
+  
+    
+      <span class="parameter">"sunt aut facere repellat provident occaecati excepturi optio reprehenderit"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+	
+	</div>
+
+      
+        
+	
+  <div class="scenario-container passed">
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Validate fetching a get call</h3>
+    
+    <span class="time">00:00:02</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+  
+	
+
+  
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:02</span>
+    </h5>
+  
+  <div class="step-info passed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Send GET request to endpoint 
+      </span>
+    
+  
+    
+      <span class="parameter">"https://jsonplaceholder.typicode.com/posts/1"</span>
     
   
   </div>
@@ -420,7 +743,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info failed">
+  <div class="step-info passed">
   
   <ul>
     <li class="step">
@@ -451,28 +774,6 @@
   </div>
 
   
-    
-        
-  <div class="error-container failed">
-    <div class="exception-container">
-      <div class="exception">
-        <h4 class="error-message">
-          <pre>java.lang.AssertionError: Unexpected title<br/>Expected: is &#34;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&#34;<br/>     but: was &#34;qui est esse&#34;</pre>
-        </h4>
-        <pre class="stacktrace">java.lang.AssertionError: Unexpected title<br/>Expected: is &#34;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&#34;<br/>     but: was &#34;qui est esse&#34;<br/>	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)<br/>	at org.example.ApiSteps.verifyTitle(ApiSteps.java:37)<br/>	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.base/java.lang.reflect.Method.invoke(Method.java:566)<br/>	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)<br/>	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)<br/>	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)<br/>	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)<br/>	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)<br/>	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)<br/>	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br/>	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br/>	at java.base/java.lang.Thread.run(Thread.java:834)<br/></pre>
-      </div>
-      
-         <div class="screenshot-container">
-          <div class="screenshot">
-            <a href="../images/screenshot-8ba2b3b1-d0fd-4470-a8a6-51551d8c5ebd.png" rel="lightbox">
-              <img src="../images/screenshot-8ba2b3b1-d0fd-4470-a8a6-51551d8c5ebd.png" class="screenshot-thumbnail" />
-            </a>
-          </div>
-        </div>
-      
-    </div>
-  </div>
-
     
     
   

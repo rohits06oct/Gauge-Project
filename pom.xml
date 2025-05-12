@@ -37,6 +37,12 @@
             <version>3.141.59</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <version>3.0.9</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -91,6 +97,25 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>gauge</executable>
+                    <arguments>
+                        <argument>run</argument>
+                        <argument>specs</argument>
+                    </arguments>
+                </configuration>
             </plugin>
         </plugins>
     </build>
